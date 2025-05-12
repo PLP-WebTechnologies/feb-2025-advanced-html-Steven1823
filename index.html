@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table, th, td {
+      border: 1px solid #333;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    form {
+      max-width: 400px;
+    }
+    form input, form label {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to the Sample Web Page</h1>
+
+  <!-- Ordered list with Roman numerals -->
+  <h2>Things To Do</h2>
+  <ol type="I">
+    <li>Learn HTML</li>
+    <li>Practice CSS</li>
+    <li>Explore JavaScript</li>
+    <li>Build Projects</li>
+    <li>Deploy Website</li>
+  </ol>
+
+  <!-- External image from Pexels -->
+  <h2>Inspiration Image</h2>
+  <img src="images/nature-image.jpg" alt="Nature from Pexels" width="600">
+
+  <!-- Table of 5 contacts -->
+  <h2>Contact List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice Smith</td>
+        <td>123 Maple St, NY</td>
+        <td>123-456-7890</td>
+        <td>alice@example.com</td>
+      </tr>
+      <tr>
+        <td>Bob Johnson</td>
+        <td>456 Oak St, CA</td>
+        <td>987-654-3210</td>
+        <td>bob@example.com</td>
+      </tr>
+      <tr>
+        <td>Clara Lee</td>
+        <td>789 Pine St, TX</td>
+        <td>555-111-2222</td>
+        <td>clara@example.com</td>
+      </tr>
+      <tr>
+        <td>David Brown</td>
+        <td>321 Birch St, FL</td>
+        <td>444-222-3333</td>
+        <td>david@example.com</td>
+      </tr>
+      <tr>
+        <td>Eva Green</td>
+        <td>654 Cedar St, WA</td>
+        <td>666-777-8888</td>
+        <td>eva@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="POST">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <input type="submit" value="Register">
+  </form>
+
+</body>
+</html>
